@@ -1,5 +1,9 @@
 # Thesis Chapter 2
 
+## Abstract
+
+insert abstract here
+
 ## Repository Directory
 
 ### [Protocols](./Protocols): Contains camera-trap and data protocols
