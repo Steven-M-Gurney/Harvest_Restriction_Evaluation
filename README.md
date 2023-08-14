@@ -1,7 +1,6 @@
 # Thesis Chapter 2
 
 ### [Steven M. Gurney](https://linktr.ee/gurneyst)
-)
 
 ## Abstract
 
