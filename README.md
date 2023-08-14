@@ -2,7 +2,8 @@
 
 ### [Steven M. Gurney](https://linktr.ee/gurneyst)
 
-#### Additional data may be available upon request. Please contact the author for questions about the code or data: Steven M. Gurney (stevenmgurney@gmail.com or gurneyst@msu.edu)
+#### Additional data may be available upon request. Please contact the author for questions about the code or data: 
+#### Steven M. Gurney (stevenmgurney@gmail.com or gurneyst@msu.edu)
 
 ## Abstract
 
