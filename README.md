@@ -1,8 +1,8 @@
 # Thesis Chapter 2
 
-### [Steven M. Gurney](https://linktr.ee/gurneyst)
+### [Steven M. Gurney,](https://linktr.ee/gurneyst) [The Christensen Lab for Wildlife Population Health](http://www.christensen-lab.org/)
 
-#### Additional data may be available upon request. Please contact the author for questions about the code or data: (gurneyst@msu.edu)
+#### Additional data may be available upon request. Please contact the author for questions about the code or data: gurneyst@msu.edu
 
 ## Abstract
 
