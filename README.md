@@ -23,9 +23,22 @@ Steven M. Gurney (steven.m.gurney@gmail.com)
 *  [Photo Protocol](./Protocols/Protocol_Photos.pdf) - Protocol for identifying wildlife in camera-trap photos.
 
 ### [Code](./Code): Contains code for preparing study data and running the study model.
+*  [A](./Code/) - .
+*  [B](./Code/) - .
+*  [C](./Code/) - .
 
 ### [Data](./Data): Contains study data.
+*  [A](./Data/) - .
+*  [B](./Data/) - .
+*  [C](./Data/) - .
 
 ### [Figures](./Figures): Contains figures, and code to create them.
+*  [Camera Protocol](./Figures/) - .
+*  [Data Protocol](./Figures/) - .
+*  [Photo Protocol](./Figures/) - .
 
 ### [Results](./Results): Contains results files.
+*  [Camera Protocol](./Results/) - .
+*  [Data Protocol](./Results/) - .
+*  [Photo Protocol](./Results/) - .
+  
