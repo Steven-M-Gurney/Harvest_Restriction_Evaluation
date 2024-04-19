@@ -17,7 +17,15 @@ Steven M. Gurney (steven.m.gurney@gmail.com)
 
 ## Repository Directory
 
-### [Protocols](./Protocols): Contains camera-trap and data protocols
-*  [Camera Protocol](./Protocols/Protocol_Cameras.pdf) - Protocol for camera-trap set up and maintenance
-*  [Data Protocol](./Protocols/Protocol_Data.pdf) - Protocol for managing and processing camera-trap data
-*  [Photo Protocol](./Protocols/Protocol_Photos.pdf) - Protocol for identifying wildlife in camera-trap photos
+### [Protocols](./Protocols): Contains detailed camera-trap and data-management protocols.
+*  [Camera Protocol](./Protocols/Protocol_Cameras.pdf) - Protocol for camera-trap set up and maintenance.
+*  [Data Protocol](./Protocols/Protocol_Data.pdf) - Protocol for managing and processing camera-trap data.
+*  [Photo Protocol](./Protocols/Protocol_Photos.pdf) - Protocol for identifying wildlife in camera-trap photos.
+
+### [Code](./Code): Contains code for preparing study data and running the study model.
+
+### [Data](./Data): Contains study data.
+
+### [Figures](./Figures): Contains figures, and code to create them.
+
+### [Results](./Results): Contains results files.
