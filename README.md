@@ -6,6 +6,7 @@
 
 #### Please contact the first author for questions about the code or data:
 Steven M. Gurney (steven.m.gurney@gmail.com)
+__________________________________________________________________________________________________________________________________________
 
 ## Abstract
 
@@ -33,12 +34,12 @@ Steven M. Gurney (steven.m.gurney@gmail.com)
 *  [C](./Data/) - .
 
 ### [Figures](./Figures): Contains figures, and code to create them.
-*  [Camera Protocol](./Figures/) - .
-*  [Data Protocol](./Figures/) - .
-*  [Photo Protocol](./Figures/) - .
+*  [A](./Figures/) - .
+*  [B](./Figures/) - .
+*  [C](./Figures/) - .
 
 ### [Results](./Results): Contains results files.
-*  [Camera Protocol](./Results/) - .
-*  [Data Protocol](./Results/) - .
-*  [Photo Protocol](./Results/) - .
+*  [A](./Results/) - .
+*  [B](./Results/) - .
+*  [C](./Results/) - .
   
