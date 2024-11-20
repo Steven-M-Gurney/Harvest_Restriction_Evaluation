@@ -2,7 +2,7 @@
 
 ### [Steven M. Gurney](https://linktr.ee/gurneyst), [Sonja A. Christensen](http://www.christensen-lab.org/), [Melissa J. Nichols](), [Chad M. Stewart](), [Sarah L. Mayhew](), [Neil A. Gilbert](https://gilbertecology.com), [Dwayne R. Etter]()
 
-### Data/code DOI: Archived on Zenodo upon journal acceptance of manuscript
+### Data/code DOI: 10.5281/zenodo.14194669
 
 #### Please contact the first author for questions about the code or data: Steven M. Gurney (steven.m.gurney@gmail.com)
 __________________________________________________________________________________________________________________________________________
