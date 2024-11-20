@@ -18,12 +18,12 @@ Evaluating changes in population abundance is essential to assess the efficacy o
 *  [Data Protocol](./Protocols/Protocol_Data.pdf) - Protocol for managing and processing camera-trap data.
 *  [Photo Protocol](./Protocols/Protocol_Photos.pdf) - Protocol for identifying wildlife in camera-trap photos.
 
-### [Code](./Code): Contains code for preparing study data and running the study model.
+### [Code](./Code): Contains code for preparing case study data and running case study model.
 *  [A](./Code/) - .
 *  [B](./Code/) - .
 *  [C](./Code/) - .
 
-### [Data](./Data): Contains study data.
+### [Data](./Data): Contains data for case study.
 *  [A](./Data/) - .
 *  [B](./Data/) - .
 *  [C](./Data/) - .
