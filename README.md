@@ -33,7 +33,8 @@ Evaluating changes in population abundance is essential to assess the efficacy o
    * [Figure_02.R](./Figures/Code_For_Figures/Figure_02.R) - Create Figure 2 (marginal effects).
    * [Figure_03.R](./Figures/Code_For_Figures/Figure_03.R) - Create Figure 3 (difference).
    * [Figure_04.R](./Figures/Code_For_Figures/Figure_04.R) - Create Figure 4 (harvest estimates).
-*  [Figure_01.tiff](Figures/Figure_01.tiff) - Figure 2. .
+*  [Figure_01.tiff](Figures/Figure_01.tiff) - Figure 1. Study area.
+*  [Figure_02.pptx](Figures/Figure_02.pptx) - Figure 2. Marginal effects of year by harvest treatment (PPTX file for annotation)
 
 ### [Results](./Results): Contains results files.
 *  [A](./Results/) - .
