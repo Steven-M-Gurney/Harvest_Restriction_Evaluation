@@ -4,8 +4,7 @@
 
 ### Data/code DOI: Archived on Zenodo upon journal acceptance of manuscript
 
-#### Please contact the first author for questions about the code or data:
-Steven M. Gurney (steven.m.gurney@gmail.com)
+#### Please contact the first author for questions about the code or data: Steven M. Gurney (steven.m.gurney@gmail.com)
 __________________________________________________________________________________________________________________________________________
 
 ## Abstract
