@@ -18,20 +18,22 @@ Evaluating changes in population abundance is essential to assess the efficacy o
 *  [Data Protocol](./Protocols/Protocol_Data.pdf) - Protocol for managing and processing camera-trap data.
 *  [Photo Protocol](./Protocols/Protocol_Photos.pdf) - Protocol for identifying wildlife in camera-trap photos.
 
-### [Code](./Code): Contains code for preparing case study data and running case study model.
+### [Code](./Code): Contains code for preparing study data and running study model.
 *  [A](./Code/) - .
 *  [B](./Code/) - .
 *  [C](./Code/) - .
 
-### [Data](./Data): Contains data for case study.
+### [Data](./Data): Contains data for study.
 *  [A](./Data/) - .
 *  [B](./Data/) - .
 *  [C](./Data/) - .
 
 ### [Figures](./Figures): Contains figures, and code to create them.
-*  [A](./Figures/) - .
-*  [B](./Figures/) - .
-*  [C](./Figures/) - .
+*  [Code_For_Figures](./Figures/Code_For_Figures) - Folder with scripts to create figures.
+  *  [Figure_02.R](./Figures/Code_For_Figures/Figure_02.R) - Create Figure 2 (marginal effects).
+  *  [Figure_03.R](./Figures/Code_For_Figures/Figure_03.R) - Create Figure 3 (difference).
+  *  [Figure_04.R](./Figures/Code_For_Figures/Figure_04.R) - Create Figure 4 (harvest estimates).
+*  [Figure_01.tiff](Figures/Figure_01.tiff) - Figure 2. .
 
 ### [Results](./Results): Contains results files.
 *  [A](./Results/) - .
