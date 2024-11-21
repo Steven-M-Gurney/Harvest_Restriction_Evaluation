@@ -26,7 +26,7 @@ Evaluating changes in population abundance is essential to assess the efficacy o
 ### [Figures](./Figures): Contains figures, and code to create them.
 *  [Code_For_Figures](./Figures/Code_For_Figures) - Folder with scripts to create figures.
    * [Figure_02.R](./Figures/Code_For_Figures/Figure_02.R) - Create Figure 2 (marginal effects).
-   * [Figure_03.R](./Figures/Code_For_Figures/Figure_03.R) - Create Figure 3 (difference).
+   * [Figure_03.R](./Figures/Code_For_Figures/Figure_03.R) - Create Figure 3 (differences in abundance).
    * [Figure_04.R](./Figures/Code_For_Figures/Figure_04.R) - Create Figure 4 (harvest estimates).
 *  [Figure_01.tiff](Figures/Figure_01.tiff) - Figure 1. Study area (created in ArcGIS Pro).
 *  [Figure_02.pptx](Figures/Figure_02.pptx) - Figure 2. Marginal effects of year by harvest treatment (PPTX file for annotation).
