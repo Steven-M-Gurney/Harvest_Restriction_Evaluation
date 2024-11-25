@@ -20,11 +20,13 @@ Evaluating changes in population abundance is essential to assess the efficacy o
 
 ### [Data](./Data): Contains data for study.
 *  [Covariate_Tables](./Data/Covariate_Tables) - Folder with annual covatiate tables (2019 - 2022). These tables contain the following columns:
+   
     | Variable name | Meaning |
     |---------------|---------|
     | SiteID | Unique name of sampling site |
-    | ClosedCover | Binary variable indicating dominant land cover, open (1) or closed (0) |
+    | ClosedCover | Binary indicator for dominant land cover, open (1) or closed (0) |
     | AgCover | Percent agricultural cover |
+   
    * [CovariateTable_2019.csv](./Data/Covariate_Tables/CovariateTable_2019.csv) - 2019 covariate table.
    * [CovariateTable_2020.csv](./Data/Covariate_Tables/CovariateTable_2020.csv) - 2020 covariate table.
    * [CovariateTable_2021.csv](./Data/Covariate_Tables/CovariateTable_2021.csv) - 2021 covariate table.
@@ -44,7 +46,28 @@ Evaluating changes in population abundance is essential to assess the efficacy o
 *  [Figure_04.tiff](Figures/Figure_04.tiff) - Figure 4. MDNR estimated deer harvest.
 
 ### [Results](./Results): Contains results files.
-*  [A](./Results/) - .
-*  [B](./Results/) - .
-*  [C](./Results/) - .
+*  [Differences](./Results/Differences) - Folder with results from the interpretation model for difference in abundances (2022 - 2019; by sex-and-age class).
+*  [Marginal_Effects](./Results/Marginal_Effects) - Folder with results from the interpretation model for marginal effects (by sex-and-class).
+*  [NMixture_Model](./Results/NMixture_Model) - Folder with N-mixture model output for each sex-and-age class. Each of these .RData files contains 4 objects:
+   * **constants**. A list of constants used in Nimble model:
+
+    | Variable name | Meaning |
+    |---------------|---------|
+    | nyear | Number of years |
+    | nsite | Number of sampling sites in a given year |
+    | nreps | Number of repeated surveys |
+    | trt | Harvest-treatment index |
+    | twn | Township-pairing index |
+
+  * **data**. A list of data used in the Nimble model:
+ 
+    | Variable name | Meaning |
+    |---------------|---------|
+    | y | Observed count of animals (counts) |
+    | year | Standardized year of study (4 years total) |
+    | ag | Standardized agriculture predictor of abundance |
+    | cover | Binary indicator for dominant land cover, open (1) or closed (0) |
+
+  * **out**. A list of the MCMC chains with the posterior samples for model parameters.
+  * **code**. Code for the Nimble model.  
   
