@@ -22,16 +22,9 @@ Evaluating changes in population abundance is essential to assess the efficacy o
 *  [Covariate_Tables](./Data/Covariate_Tables) - Folder with annual covatiate tables (2019 - 2022). These tables contain the following columns:
     | Variable name | Meaning |
     |---------------|---------|
-    | transect | Transect name |
-    | sp_name | Common name of species |
-    | date | Date of survey |
-    | sp | Species id |
-    | site | Site (transect} id |
-    | rep | Visit id |
-    | count | Count of the total number of individuals of a species observed on a survey |
-    | area | Area offset for transect |
-    | region | Binary variable indicating Mara (0) or Talek (1) region |
-
+    | SiteID | Unique name of sampling site |
+    | ClosedCover | Binary variable indicating dominant land cover, open (1) or closed (0) |
+    | AgCover | Percent agricultural cover |
    * [Figure_02.R](./Data/Covariate_Tables/CovariateTable_2019.csv) - 2019 covariate table.
 *  [B](./Data/) - .
 *  [C](./Data/) - .
