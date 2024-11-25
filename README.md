@@ -20,7 +20,7 @@ Evaluating changes in population abundance is essential to assess the efficacy o
 
 ### [Data](./Data): Contains data for study.
 *  [Covariate_Tables](./Data/Covariate_Tables) - Folder with annual covatiate tables (2019 - 2022). These tables contain the following columns:
-    | Variable name | Meaning |
+    | **Variable name** | **Meaning** |
     |---------------|---------|
     | SiteID | Unique name of sampling site |
     | ClosedCover | Binary variable indicating dominant land cover, open (1) or closed (0) |
