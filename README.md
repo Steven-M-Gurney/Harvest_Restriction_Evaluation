@@ -20,14 +20,15 @@ Evaluating changes in population abundance is essential to assess the efficacy o
 
 ### [Data](./Data): Contains data for study.
 *  [Covariate_Tables](./Data/Covariate_Tables) - Folder with annual covatiate tables (2019 - 2022). These tables contain the following columns:
-    | **Variable name** | **Meaning** |
+    | Variable name | Meaning |
     |---------------|---------|
     | SiteID | Unique name of sampling site |
     | ClosedCover | Binary variable indicating dominant land cover, open (1) or closed (0) |
     | AgCover | Percent agricultural cover |
-   * [Figure_02.R](./Data/Covariate_Tables/CovariateTable_2019.csv) - 2019 covariate table.
-*  [B](./Data/) - .
-*  [C](./Data/) - .
+   * [CovariateTable_2019.csv](./Data/Covariate_Tables/CovariateTable_2019.csv) - 2019 covariate table.
+   * [CovariateTable_2020.csv](./Data/Covariate_Tables/CovariateTable_2020.csv) - 2020 covariate table.
+   * [CovariateTable_2021.csv](./Data/Covariate_Tables/CovariateTable_2021.csv) - 2021 covariate table.
+   * [CovariateTable_2022.csv](./Data/Covariate_Tables/CovariateTable_2022.csv) - 2022 covariate table.
 
 ### [Figures](./Figures): Contains figures, and code to create them.
 *  [Code_For_Figures](./Figures/Code_For_Figures) - Folder with scripts to create figures.
