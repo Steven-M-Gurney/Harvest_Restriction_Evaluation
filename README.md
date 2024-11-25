@@ -20,13 +20,11 @@ Evaluating changes in population abundance is essential to assess the efficacy o
 
 ### [Data](./Data): Contains data for study.
 *  [Covariate_Tables](./Data/Covariate_Tables) - Folder with annual covatiate tables (2019 - 2022). These tables contain the following columns:
-   
     | Variable name | Meaning |
     |---------------|---------|
     | SiteID | Unique name of sampling site |
     | ClosedCover | Binary indicator for dominant land cover, open (1) or closed (0) |
     | AgCover | Percent agricultural cover |
-   
    * [CovariateTable_2019.csv](./Data/Covariate_Tables/CovariateTable_2019.csv) - 2019 covariate table.
    * [CovariateTable_2020.csv](./Data/Covariate_Tables/CovariateTable_2020.csv) - 2020 covariate table.
    * [CovariateTable_2021.csv](./Data/Covariate_Tables/CovariateTable_2021.csv) - 2021 covariate table.
@@ -57,13 +55,13 @@ Evaluating changes in population abundance is essential to assess the efficacy o
      | nreps | Number of repeated surveys |
      | trt | Harvest-treatment index |
      | twn | Township-pairing index |
-  * **data**. A list of data used in the Nimble model:
-    | Variable name | Meaning |
-    |---------------|---------|
-    | y | Observed count of animals (counts) |
-    | year | Standardized year of study (4 years total) |
-    | ag | Standardized agriculture predictor of abundance |
-    | cover | Binary indicator for dominant land cover, open (1) or closed (0) |
+    * **data**. A list of data used in the Nimble model:
+     | Variable name | Meaning |
+     |---------------|---------|
+     | y | Observed count of animals (counts) |
+     | year | Standardized year of study (4 years total) |
+     | ag | Standardized agriculture predictor of abundance |
+     | cover | Binary indicator for dominant land cover, open (1) or closed (0) |
   * **out**. A list of the MCMC chains with the posterior samples for model parameters.
   * **code**. Code for the Nimble model.  
   
