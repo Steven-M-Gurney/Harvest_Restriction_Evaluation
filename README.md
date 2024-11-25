@@ -51,13 +51,13 @@ Evaluating changes in population abundance is essential to assess the efficacy o
 *  [NMixture_Model](./Results/NMixture_Model) - Folder with N-mixture model output for each sex-and-age class. Each of these .RData files contains 4 objects:
    * **constants**. A list of constants used in Nimble model:
 
-    | Variable name | Meaning |
-    |---------------|---------|
-    | nyear | Number of years |
-    | nsite | Number of sampling sites in a given year |
-    | nreps | Number of repeated surveys |
-    | trt | Harvest-treatment index |
-    | twn | Township-pairing index |
+     | Variable name | Meaning |
+     |---------------|---------|
+     | nyear | Number of years |
+     | nsite | Number of sampling sites in a given year |
+     | nreps | Number of repeated surveys |
+     | trt | Harvest-treatment index |
+     | twn | Township-pairing index |
   * **data**. A list of data used in the Nimble model:
  
     | Variable name | Meaning |
