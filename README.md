@@ -62,6 +62,6 @@ Evaluating changes in population abundance is essential to assess the efficacy o
      | year | Standardized year of study (4 years total) |
      | ag | Standardized agriculture predictor of abundance |
      | cover | Binary indicator for dominant land cover, open (1) or closed (0) |
-  * **out**. A list of the MCMC chains with the posterior samples for model parameters.
-  * **code**. Code for the Nimble model.  
+   * **out**. A list of the MCMC chains with the posterior samples for model parameters.
+   * **code**. Code for the Nimble model.  
   
