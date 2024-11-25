@@ -45,6 +45,13 @@ Evaluating changes in population abundance is essential to assess the efficacy o
 
 ### [Results](./Results): Contains results files.
 *  [Differences](./Results/Differences) - Folder with results from the interpretation model for difference in abundances (2022 - 2019; by sex-and-age class).
+    | Variable name | Meaning |
+    |---------------|---------|
+    | trt | Harvest-treatment index |
+    | mean | Mean estimate of difference |
+    | l95 | Lower credible interval of difference estimate |
+    | u95 | Upper credible interval of difference estimate |
+    | trt_name | Harvest-treatment acronym (Non=APR = no restrictions; APR = restrictions) |
    * [Results_Diff_Fawns.csv](./Results/Differences/Results_Diff_Fawns.csv) - Fawn difference results (CSV file).
    * [Results_Diff_Females.csv](./Results/Differences/Results_Diff_Females.csv) - Female difference results (CSV file).
    * [Results_Diff_Legal.csv](./Results/Differences/Results_Diff_Legal.csv) - Legal difference results (CSV file).
@@ -52,9 +59,12 @@ Evaluating changes in population abundance is essential to assess the efficacy o
 *  [Marginal_Effects](./Results/Marginal_Effects) - Folder with results from the interpretation model for marginal effects (by sex-and-class).
     | Variable name | Meaning |
     |---------------|---------|
-    | SiteID | Unique name of sampling site |
-    | ClosedCover | Binary indicator for dominant land cover, open (1) or closed (0) |
-    | AgCover | Percent agricultural cover |
+    | trt | Harvest-treatment index |
+    | year | Year of study (2019 - 2022) |
+    | mean | Mean estimate of effect |
+    | l95 | Lower credible interval of effect estimate |
+    | u95 | Upper credible interval of effect estimate |
+    | trt_name | Harvest-treatment acronym (NonAPR = no restrictions; APR = restrictions) |
    * [Results_ME_Fawns.csv](./Results/Marginal_Effects/Results_ME_Fawns.csv) - Fawn marginal-effects results (CSV file).
    * [Results_ME_Females.csv](./Results/Marginal_Effects/Results_ME_Females.csv) - Female marginal-effects results (CSV file).
    * [Results_ME_Legal.csv](./Results/Marginal_Effects/Results_ME_Legal.csv) - Legal marginal-effects results (CSV file).
