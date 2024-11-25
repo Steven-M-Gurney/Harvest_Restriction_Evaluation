@@ -55,7 +55,7 @@ Evaluating changes in population abundance is essential to assess the efficacy o
      | nreps | Number of repeated surveys |
      | trt | Harvest-treatment index |
      | twn | Township-pairing index |
-    * **data**. A list of data used in the Nimble model:
+   * **data**. A list of data used in the Nimble model:
      | Variable name | Meaning |
      |---------------|---------|
      | y | Observed count of animals (counts) |
