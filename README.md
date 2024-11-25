@@ -50,6 +50,11 @@ Evaluating changes in population abundance is essential to assess the efficacy o
    * [Results_Diff_Legal.csv](./Results/Differences/Results_Diff_Legal.csv) - Legal difference results (CSV file).
    * [Results_Diff_Sublegal.csv](./Results/Differences/Results_Diff_Sublegal.csv) - Sublegal difference results (CSV file).
 *  [Marginal_Effects](./Results/Marginal_Effects) - Folder with results from the interpretation model for marginal effects (by sex-and-class).
+    | Variable name | Meaning |
+    |---------------|---------|
+    | SiteID | Unique name of sampling site |
+    | ClosedCover | Binary indicator for dominant land cover, open (1) or closed (0) |
+    | AgCover | Percent agricultural cover |
    * [Results_ME_Fawns.csv](./Results/Marginal_Effects/Results_ME_Fawns.csv) - Fawn marginal-effects results (CSV file).
    * [Results_ME_Females.csv](./Results/Marginal_Effects/Results_ME_Females.csv) - Female marginal-effects results (CSV file).
    * [Results_ME_Legal.csv](./Results/Marginal_Effects/Results_ME_Legal.csv) - Legal marginal-effects results (CSV file).
