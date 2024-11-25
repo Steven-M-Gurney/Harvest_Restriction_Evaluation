@@ -19,7 +19,8 @@ Evaluating changes in population abundance is essential to assess the efficacy o
 *  [C](./Code/) - .
 
 ### [Data](./Data): Contains data for study.
-*  [A](./Data/) - .
+*  [Covariate_Tables](./Data/) - .
+   * 
 *  [B](./Data/) - .
 *  [C](./Data/) - .
 
