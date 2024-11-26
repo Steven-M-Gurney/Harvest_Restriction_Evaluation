@@ -46,7 +46,7 @@ Evaluating changes in population abundance is essential to assess the efficacy o
 *  [Differences](./Results/Differences) - Folder with results from the interpretation model for difference in abundances (2022 - 2019; by sex-and-age class).
     | Variable name | Meaning |
     |---------------|---------|
-    | trt | Harvest-treatment index |
+    | trt | Harvest-treatment index (1 = Non-APR; 2 = APR)|
     | mean | Mean estimate of difference |
     | l95 | Lower credible interval of difference estimate |
     | u95 | Upper credible interval of difference estimate |
@@ -58,7 +58,7 @@ Evaluating changes in population abundance is essential to assess the efficacy o
 *  [Marginal_Effects](./Results/Marginal_Effects) - Folder with results from the interpretation model for marginal effects (by sex-and-class).
     | Variable name | Meaning |
     |---------------|---------|
-    | trt | Harvest-treatment index |
+    | trt | Harvest-treatment index (1 = Non-APR; 2 = APR) |
     | year | Year of study (2019 - 2022) |
     | mean | Mean estimate of effect |
     | l95 | Lower credible interval of effect estimate |
