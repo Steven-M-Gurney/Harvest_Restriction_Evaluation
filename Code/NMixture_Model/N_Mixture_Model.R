@@ -4,7 +4,7 @@
 
 # This script was used for each sex-and-age class individually.
 # Below is an example for legal-antlered deer. 
-# Note when running other sex-and-age classes, hardcoding is needed when loading saving and data.
+# Note when running other sex-and-age classes, hardcoding is needed when loading data and saving output.
 
 # Load packages.
 library(tidyverse)
