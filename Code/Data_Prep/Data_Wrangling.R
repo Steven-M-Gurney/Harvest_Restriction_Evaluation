@@ -1,7 +1,7 @@
 
-#######################################
-###### Load Data and Format Time ######
-#######################################
+###########################################
+###### Load Raw Data and Format Time ######
+###########################################
 
 # This code reads in, formats, and combines count and camera-location data.
 # Location data is private to Michigan State University. 
