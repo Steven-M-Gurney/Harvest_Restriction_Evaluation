@@ -18,6 +18,7 @@ Evaluating changes in population abundance is essential to assess the efficacy o
 *  [NMixture_Model](./Code/NMixture_Model) - Code to run the study model.
 
 ### [Data](./Data): Contains data for study.
+*  [Count_Data](./Data/Count_Data) - Folder intended to include verified count data.
 *  [Covariate_Tables](./Data/Covariate_Tables) - Folder with annual covatiate tables (2019 - 2022). These tables contain the following columns:
     | Variable name | Meaning |
     |---------------|---------|
