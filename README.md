@@ -29,7 +29,7 @@ Evaluating changes in population abundance is essential to assess the efficacy o
    * [CovariateTable_2021.csv](./Data/Covariate_Tables/CovariateTable_2021.csv) - 2021 covariate table (CSV file).
    * [CovariateTable_2022.csv](./Data/Covariate_Tables/CovariateTable_2022.csv) - 2022 covariate table (CSV file).
 
-### [Figures](./Figures): Contains figures, and code to create them.
+### [Figures](./Figures): Contains figures, and the data and code to create them.
 *  [Code_For_Figures](./Figures/Code_For_Figures) - Folder with scripts to create figures.
    * [Figure_02.R](./Figures/Code_For_Figures/Figure_02.R) - Create Figure 2 (marginal effects).
    * [Figure_03.R](./Figures/Code_For_Figures/Figure_03.R) - Create Figure 3 (differences in abundance).
