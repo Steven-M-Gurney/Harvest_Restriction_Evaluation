@@ -68,7 +68,7 @@ Evaluating changes in population abundance is essential to assess the efficacy o
    * [Results_ME_Females.csv](./Results/Marginal_Effects/Results_ME_Females.csv) - Female marginal-effects results (CSV file).
    * [Results_ME_Legal.csv](./Results/Marginal_Effects/Results_ME_Legal.csv) - Legal marginal-effects results (CSV file).
    * [Results_ME_Sublegal.csv](./Results/Marginal_Effects/Results_ME_Sublegal.csv) - Sublegal marginal-effects results (CSV file).
-*  [NMixture_Model](./Results/NMixture_Model) - Folder with N-mixture model output for each sex-and-age class. Each of these .RData files contains 4 objects:
+*  [N_Mixture_Model](./Results/N_Mixture_Model) - Folder with N-mixture model output for each sex-and-age class. Each of these .RData files contains 4 objects:
    * **constants**. A list of constants used in Nimble model:
      | Variable name | Meaning |
      |---------------|---------|
