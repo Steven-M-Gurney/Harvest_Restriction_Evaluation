@@ -34,7 +34,10 @@ Evaluating changes in population abundance is essential to assess the efficacy o
 *  [Code_For_Figures](./Figures/Code_For_Figures) - Folder with scripts and data to create figures.
    * [Figure_02](./Figures/Code_For_Figures/Figure_02) - Folder with script and data to create Figure 02.
       * [Figure_02.R](./Figures/Code_For_Figures/Figure_02.R) - Create Figure 2 (marginal effects).
-      * 
+      * [Results_ME_Fawns.csv](./Figures/Code_For_Figures/Results_ME_Fawns.csv) - Fawn data for creating Figure 02.
+      * [Results_ME_Females.csv](./Figures/Code_For_Figures/Results_ME_Females.csv) - Female data for creating Figure 02.
+      * [Results_ME_Legal.csv](./Figures/Code_For_Figures/Results_ME_Legal.csv) - Legal data for creating Figure 02.
+      * [Results_ME_Sublegal.csv](./Figures/Code_For_Figures/Results_ME_Sublegal.csv) - Sublegal data for creating Figure 02.
    * [Figure_03](./Figures/Code_For_Figures/Figure_03) - Folder with script and data to create Figure 03.
       * [Figure_03.R](./Figures/Code_For_Figures/Figure_03.R) - Create Figure 3 (differences in abundance).
       *
