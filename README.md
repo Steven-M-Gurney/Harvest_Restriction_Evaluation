@@ -40,13 +40,13 @@ Evaluating changes in population abundance is essential to assess the efficacy o
       * [Results_ME_Sublegal.csv](./Figures/Code_For_Figures/Results_ME_Sublegal.csv) - Sublegal-antlered data for creating Figure 02.
    * [Figure_03](./Figures/Code_For_Figures/Figure_03) - Folder with script and data to create Figure 03.
       * [Figure_03.R](./Figures/Code_For_Figures/Figure_03.R) - Create Figure 3 (differences in abundance).
-      *
-   * [Figure_04](./Figures/Code_For_Figures/Figure_04) - Folder with script and data to create Figure 04.
-      * [Figure_04.R](./Figures/Code_For_Figures/Figure_04.R) - Create Figure 4 (harvest estimates).
       * [Results_Diff_Fawns.csv](./Figures/Code_For_Figures/Results_Diff_Fawns.csv) - Fawn data for creating Figure 03.
       * [Results_Diff_Females.csv](./Figures/Code_For_Figures/Results_Diff_Females.csv) - Female data for creating Figure 03.
       * [Results_Diff_Legal.csv](./Figures/Code_For_Figures/Results_Diff_Legal.csv) - Legal-antlered data for creating Figure 03.
       * [Results_Diff_Sublegal.csv](./Figures/Code_For_Figures/Results_Diff_Sublegal.csv) - Sublegal-antlered data for creating Figure 03.
+   * [Figure_04](./Figures/Code_For_Figures/Figure_04) - Folder with script and data to create Figure 04.
+      * [Figure_04.R](./Figures/Code_For_Figures/Figure_04.R) - Create Figure 4 (harvest estimates).
+      * [MDNR_Harvest_Data](./Figures/Code_For_Figures/MDNR_Harvest_Data) - Michigan Department of Natural Resources harvest data for creating Figure 04.
 *  [Figure_01.tiff](./Figures/Figure_01.tiff) - Figure 1. Study area (created in ArcGIS Pro).
 *  [Figure_02.pptx](./Figures/Figure_02.pptx) - Figure 2. Marginal effects of year by harvest treatment (PPTX file for annotation).
 *  [Figure_02.tiff](./Figures/Figure_02.tiff) - Figure 2. Marginal effects of year by harvest treatment.
