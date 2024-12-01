@@ -46,7 +46,7 @@ Evaluating changes in population abundance is essential to assess the efficacy o
       * [Results_Diff_Sublegal.csv](./Figures/Code_For_Figures/Results_Diff_Sublegal.csv) - Sublegal-antlered data for creating Figure 03.
    * [Figure_04](./Figures/Code_For_Figures/Figure_04) - Folder with script and data to create Figure 04.
       * [Figure_04.R](./Figures/Code_For_Figures/Figure_04.R) - Create Figure 4 (harvest estimates).
-      * [MDNR_Harvest_Data](./Figures/Code_For_Figures/MDNR_Harvest_Data) - Harvest data for creating Figure 04, from the Michigan Department of Natural Resources.
+      * [MDNR_Harvest_Data](./Figures/Code_For_Figures/MDNR_Harvest_Data) - MDNR harvest data for creating Figure 04.
 *  [Figure_01.tiff](./Figures/Figure_01.tiff) - Figure 1. Study area (created in ArcGIS Pro).
 *  [Figure_02.pptx](./Figures/Figure_02.pptx) - Figure 2. Marginal effects of year by harvest treatment (PPTX file for annotation).
 *  [Figure_02.tiff](./Figures/Figure_02.tiff) - Figure 2. Marginal effects of year by harvest treatment.
