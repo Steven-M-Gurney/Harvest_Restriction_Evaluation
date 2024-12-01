@@ -52,7 +52,7 @@ Evaluating changes in population abundance is essential to assess the efficacy o
 *  [Figure_04.tiff](./Figures/Figure_04.tiff) - Figure 4. MDNR estimated deer harvest.
 
 ### [Results](./Results): Contains results files.
-*  [Differences](./Results/Differences) - Folder with results from the interpretation model for difference in abundances (2022 - 2019; by sex-and-age class).
+*  [Differences](./Results/Differences) - Folder with results from the interpretation model for difference in abundances (2022 - 2019; by sex-and-age class). These tables contain the following columns:
     | Variable name | Meaning |
     |---------------|---------|
     | trt | Harvest-treatment index (1 = Non-APR; 2 = APR)|
@@ -64,7 +64,7 @@ Evaluating changes in population abundance is essential to assess the efficacy o
    * [Results_Diff_Females.csv](./Results/Differences/Results_Diff_Females.csv) - Female difference results (CSV file).
    * [Results_Diff_Legal.csv](./Results/Differences/Results_Diff_Legal.csv) - Legal difference results (CSV file).
    * [Results_Diff_Sublegal.csv](./Results/Differences/Results_Diff_Sublegal.csv) - Sublegal difference results (CSV file).
-*  [Marginal_Effects](./Results/Marginal_Effects) - Folder with results from the interpretation model for marginal effects (by sex-and-class).
+*  [Marginal_Effects](./Results/Marginal_Effects) - Folder with results from the interpretation model for marginal effects (by sex-and-class). These tables contain the following columns:
     | Variable name | Meaning |
     |---------------|---------|
     | trt | Harvest-treatment index (1 = Non-APR; 2 = APR) |
@@ -94,5 +94,12 @@ Evaluating changes in population abundance is essential to assess the efficacy o
      | ag | Standardized agriculture predictor of abundance |
      | cover | Binary indicator for dominant land cover, open (1) or closed (0) |
    * **out**. A list of the MCMC chains with the posterior samples for model parameters.
-   * **code**. Code for the Nimble model.  
-  
+   * **code**. Code for the Nimble model.
+*  [MDNR_Harvest_Estimates.csv](./Results/MDNR_Harvest_Estimates.csv) - MDNR annual harvest estimates by study area. This table contains the following columns:
+    | Variable name | Meaning |
+    |---------------|---------|
+    | Year | Year of the fall deer harvest |
+    | Zone | Study area harvest treatment (APR or Non-APR) |
+    | Class | Aggregated sex-and-age class (antlered or antlerless) |
+    | Harvest | Estimated number of deer harvested |
+    | 95CL | 95% confidence limit of estimated deer harvest |
