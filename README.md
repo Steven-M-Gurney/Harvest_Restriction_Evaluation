@@ -89,7 +89,7 @@ Evaluating changes in population abundance is essential to assess the efficacy o
      | cover | Binary indicator for dominant land cover, open (1) or closed (0) |
    * **out**. A list of the MCMC chains with the posterior samples for model parameters.
    * **code**. Code for the Nimble model.
-*  [MDNR_Harvest_Estimates.csv](./Results/MDNR_Harvest_Estimates.csv) - MDNR annual harvest estimates by study area. This table contains the following columns:
+*  [MDNR_Harvest_Estimates.csv](./Results/MDNR_Harvest_Estimates.csv) - MDNR annual harvest estimates by study area (i.e., Zone). This table contains the following columns:
     | Variable name | Meaning |
     |---------------|---------|
     | Year | Year of the fall deer harvest |
