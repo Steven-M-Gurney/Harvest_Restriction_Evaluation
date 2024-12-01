@@ -1,8 +1,4 @@
-**#############################################**
-
 **###   THIS PAGE IS STILL UNDER CONSTRUCTION   ###**
-
-**#############################################**
 
 # Harvest restrictions fail to influence population abundance
 
