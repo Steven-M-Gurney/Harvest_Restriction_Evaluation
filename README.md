@@ -19,7 +19,7 @@ Evaluating changes in population abundance is essential to assess the efficacy o
 *  [Data_Prep](./Code/Data_Prep) - Folder with code to prepare study data for use in the N-mixture model.
    * [Data_Processing.R](./Code/Data_Prep/Data_Processing.R) - Code to process wrangled data.
    * [Data_Wrangling.R](./Code/Data_Prep/Data_Wrangling.R) - Code to wrangle study data.
-*  [N_Mixture_Model.R](./Code/NMixture_Model.R) - Code to run the study model.
+*  [N_Mixture_Model.R](./Code/N_Mixture_Model.R) - Code to run the study model.
 
 ### [Data](./Data): Contains data for study.
 *  [Count_Data](./Data/Count_Data) - Folder intended to include verified count data.
