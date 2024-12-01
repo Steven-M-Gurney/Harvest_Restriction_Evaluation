@@ -1,4 +1,10 @@
 Fix replicated files in the Code_For_Figures and Results folders.
+Add table describing contents of MDNR_Harvest_Data somewhere.
+Provide fawn count data.
+Change N-mixture model so it runs fawn data.
+Test our N-Mixture model with fawn data.
+Include an R Project for the study.
+Test out R Project for the study.
 # Harvest restrictions fail to influence population abundance
 
 ### [Steven M. Gurney](https://linktr.ee/gurneyst), [Sonja A. Christensen](http://www.christensen-lab.org/), [Melissa J. Nichols](), [Chad M. Stewart](), [Sarah L. Mayhew](), [Neil A. Gilbert](https://gilbertecology.com), [Dwayne R. Etter]()
