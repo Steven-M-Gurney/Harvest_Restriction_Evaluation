@@ -23,7 +23,7 @@ Evaluating changes in population abundance is essential to assess the efficacy o
 
 ### [Code](./Code): Contains code for preparing study data and running study model.
 *  [Data_Prep](./Code/Data_Prep) - Code to prepare study data for use in N-mixture model.
-*  [NMixture_Model](./Code/NMixture_Model) - Code to run the study model.
+*  [N_Mixture_Model.R](./Code/NMixture_Model.R) - Code to run the study model.
 
 ### [Data](./Data): Contains data for study.
 *  [Count_Data](./Data/Count_Data) - Folder intended to include verified count data.
