@@ -4,7 +4,7 @@
 #######################################
 
 # This code reads in, formats, and combines count and camera-location data.
-# Location data is private to Michigan State University. and this no data provided to run this code.
+# Location data is private to Michigan State University. and thus no data is provided to run this code.
 
 # Utilize the Access database (PhotoWarehouse) query for all verified photos. 
 # Years after 2019 have 2 databases (APR and NonAPR).
