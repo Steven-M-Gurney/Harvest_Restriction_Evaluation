@@ -22,17 +22,33 @@ Evaluating changes in population abundance is essential to assess the efficacy o
 *  [N_Mixture_Model.R](./Code/N_Mixture_Model.R) - Code to run the study model.
 
 ### [Data](./Data): Contains data for study.
-*  [Count_Data](./Data/Count_Data) - Folder intended to include verified count data.
-*  [Covariate_Tables](./Data/Covariate_Tables) - Folder with annual covatiate tables (2019 - 2022). These tables contain the following columns:
+*  [Count_Data](./Data/Count_Data) - Folder with verified count data by sex-and-age class and year (2019 - 2022; CSV files). These detection histories include a column for LocationName (unique name of sampling site, synonymous with SiteID) and columns for 9 weekly counts.
+   * [Counts_Fawns_2019.csv](./Data/Count_Data/Counts_Fawns_2019.csv) - Fawn count data for 2019.
+   * [Counts_Fawns_2020.csv](./Data/Count_Data/Counts_Fawns_2020.csv) - Fawn count data for 2020.
+   * [Counts_Fawns_2021.csv](./Data/Count_Data/Counts_Fawns_2021.csv) - Fawn count data for 2021.
+   * [Counts_Fawns_2022.csv](./Data/Count_Data/Counts_Fawns_2022.csv) - Fawn count data for 2022.
+   * [Counts_Females_2019.csv](./Data/Count_Data/Counts_Females_2019.csv) - Female count data for 2019.
+   * [Counts_Females_2020.csv](./Data/Count_Data/Counts_Females_2020.csv) - Female count data for 2020.
+   * [Counts_Females_2021.csv](./Data/Count_Data/Counts_Females_2021.csv) - Female count data for 2021.
+   * [Counts_Females_2022.csv](./Data/Count_Data/Counts_Females_2022.csv) - Female count data for 2022.
+   * [Counts_Legal_2019.csv](./Data/Count_Data/Counts_Legal_2019.csv) - Legal-antlered count data for 2019.
+   * [Counts_Legal_2020.csv](./Data/Count_Data/Counts_Legal_2020.csv) - Legal-antlered count data for 2020.
+   * [Counts_Legal_2021.csv](./Data/Count_Data/Counts_Legal_2021.csv) - Legal-antlered count data for 2021.
+   * [Counts_Legal_2022.csv](./Data/Count_Data/Counts_Legal_2022.csv) - Legal-antlered count data for 2022.
+   * [Counts_Sublegal_2019.csv](./Data/Count_Data/Counts_Sublegal_2019.csv) - Sublegal-antlered count data for 2019.
+   * [Counts_Sublegal_2020.csv](./Data/Count_Data/Counts_Sublegal_2020.csv) - Sublegal-antlered count data for 2020.
+   * [Counts_Sublegal_2021.csv](./Data/Count_Data/Counts_Sublegal_2021.csv) - Sublegal-antlered count data for 2021.
+   * [Counts_Sublegal_2022.csv](./Data/Count_Data/Counts_Sublegal_2022.csv) - Sublegal-antlered count data for 2022.
+*  [Covariate_Tables](./Data/Covariate_Tables) - Folder with annual covatiate tables (2019 - 2022; CSV files). These tables contain the following columns:
     | Variable name | Meaning |
     |---------------|---------|
     | SiteID | Unique name of sampling site |
     | ClosedCover | Binary indicator for dominant land cover, open (1) or closed (0) |
     | AgCover | Percent agricultural cover |
-   * [CovariateTable_2019.csv](./Data/Covariate_Tables/CovariateTable_2019.csv) - 2019 covariate table (CSV file).
-   * [CovariateTable_2020.csv](./Data/Covariate_Tables/CovariateTable_2020.csv) - 2020 covariate table (CSV file).
-   * [CovariateTable_2021.csv](./Data/Covariate_Tables/CovariateTable_2021.csv) - 2021 covariate table (CSV file).
-   * [CovariateTable_2022.csv](./Data/Covariate_Tables/CovariateTable_2022.csv) - 2022 covariate table (CSV file).
+   * [CovariateTable_2019.csv](./Data/Covariate_Tables/CovariateTable_2019.csv) - 2019 covariate table.
+   * [CovariateTable_2020.csv](./Data/Covariate_Tables/CovariateTable_2020.csv) - 2020 covariate table.
+   * [CovariateTable_2021.csv](./Data/Covariate_Tables/CovariateTable_2021.csv) - 2021 covariate table.
+   * [CovariateTable_2022.csv](./Data/Covariate_Tables/CovariateTable_2022.csv) - 2022 covariate table.
 
 ### [Figures](./Figures): Contains figures and code to create them.
 *  [Code_For_Figures](./Figures/Code_For_Figures) - Folder with scripts and data to create figures.
