@@ -3,8 +3,9 @@
 ###### Load Data and Format Time ######
 #######################################
 
+# Raw data is not provided to run this code.
 # This code reads in, formats, and combines count and camera-location data.
-# Location data is private to Michigan State University. and thus no data is provided to run this code.
+# Note that location data is private to Michigan State University.
 
 # Utilize the Access database (PhotoWarehouse) query for all verified photos. 
 # Years after 2019 have 2 databases (APR and NonAPR).
