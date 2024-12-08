@@ -3,11 +3,11 @@
 ################ Preface ###################
 ############################################
 
+# Raw data is not provided to run this code.
 # This script was used for each sex-and-age class individually.
-# Below is an example for legal-antlered deer. 
+# Below is an example for legal-antlered deer.
 # Note when running other sex-and-age classes, hardcoding is needed when loading data and saving output.
 
-# Load packages.
 
 #############################################
 ###### Create Data-Processing Function ######
