@@ -22,7 +22,7 @@ Evaluating changes in population abundance is essential to assess the efficacy o
 *  [N_Mixture_Model.R](./Code/N_Mixture_Model.R) - Code to run the study model.
 
 ### [Data](./Data): Contains data for study.
-*  [Count_Data](./Data/Count_Data) - Folder with verified count data by sex-and-age class and year (2019 - 2022; CSV files). These detection histories include a column for LocationName (unique name of sampling site, synonymous with SiteID) and columns for 9 weekly counts.
+*  [Count_Data](./Data/Count_Data) - Folder with verified count data by sex-and-age class and year (2019 - 2022; CSV files). These detection histories include a column for LocationName (unique name of sampling site, synonymous with SiteID) and columns associated with 9 seperate weekly counts.
    * [Counts_Fawns_2019.csv](./Data/Count_Data/Counts_Fawns_2019.csv) - Fawn count data for 2019.
    * [Counts_Fawns_2020.csv](./Data/Count_Data/Counts_Fawns_2020.csv) - Fawn count data for 2020.
    * [Counts_Fawns_2021.csv](./Data/Count_Data/Counts_Fawns_2021.csv) - Fawn count data for 2021.
