@@ -1,11 +1,16 @@
 
-#######################################
-###### Load Data and Format Time ######
-#######################################
+############################################
+################ Preface ###################
+############################################
 
 # Raw data is not provided to run this code.
 # This code reads in, formats, and combines count and camera-location data.
 # Note that location data is private to Michigan State University.
+
+
+#######################################
+###### Load Data and Format Time ######
+#######################################
 
 # Utilize the Access database (PhotoWarehouse) query for all verified photos. 
 # Years after 2019 have 2 databases (APR and NonAPR).
