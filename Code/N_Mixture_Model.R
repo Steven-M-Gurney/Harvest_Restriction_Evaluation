@@ -12,6 +12,7 @@ library(tidyverse)
 library(nimble)
 library(MCMCvis)
 library(ggplot2)
+library(here)
 
 ############################################
 ############# Covariate Data ###############
@@ -25,7 +26,7 @@ library(ggplot2)
 # Select columns of interest.
 
 # Prepare 2019 covaiate table.
-cov19 <- read_csv("CovariateTable_2019.csv") |> 
+cov19 <- read_csv(here::here("Data/Covariate_Tables/CovariateTable_2019.csv")) |> 
   add_column( year = 2019) |> 
   rename( LocationName = SiteID) |> 
   mutate( trt = substr( LocationName, 1, 1),
@@ -35,7 +36,7 @@ cov19 <- read_csv("CovariateTable_2019.csv") |>
   dplyr::select( LocationName, year, siteID, trt, twn, ClosedCover, AgCover)
 
 # Prepare 2020 covariate table.
-cov20 <- read_csv("CovariateTable_2020.csv") |> 
+cov20 <- read_csv(here::here("Data/Covariate_Tables/CovariateTable_2020.csv")) |> 
   add_column( year = 2020) |> 
   rename( LocationName = SiteID) |> 
   mutate( trt = substr( LocationName, 1, 1),
@@ -45,7 +46,7 @@ cov20 <- read_csv("CovariateTable_2020.csv") |>
   dplyr::select( LocationName, year, siteID, trt, twn, ClosedCover, AgCover)
 
 # Prepare 2021 covariate table.
-cov21 <- read_csv("CovariateTable_2021.csv") |> 
+cov21 <- read_csv(here::here("Data/Covariate_Tables/CovariateTable_2021.csv")) |> 
   add_column( year = 2021) |> 
   rename( LocationName = SiteID) |> 
   mutate( trt = substr( LocationName, 1, 1),
@@ -55,7 +56,7 @@ cov21 <- read_csv("CovariateTable_2021.csv") |>
   dplyr::select( LocationName, year, siteID, trt, twn, ClosedCover, AgCover)
 
 # Prepare 2022 covariate table.
-cov22 <- read_csv("CovariateTable_2022.csv") |> 
+cov22 <- read_csv(here::here("Data/Covariate_Tables/CovariateTable_2022.csv")) |> 
   add_column( year = 2022) |> 
   rename( LocationName = SiteID) |> 
   mutate( trt = substr( LocationName, 1, 1),
@@ -73,7 +74,7 @@ cov22 <- read_csv("CovariateTable_2022.csv") |>
 # Add new columns to reflect formatting of covariate tables.
 
 # 2019 count data, sex-and-age class (CSV) hardcoded.
-count19 <- read_csv("Counts_Legal_2019.csv") |> 
+count19 <- read_csv(here::here("Data/Count_Data/Counts_Legal_2019.csv")) |> 
   add_column( year = 2019) |> 
   mutate( trt = substr( LocationName, 1, 1),
           twn = substr( LocationName, 2, 2), 
@@ -82,7 +83,7 @@ count19 <- read_csv("Counts_Legal_2019.csv") |>
   dplyr::select( LocationName, year, siteID, trt, twn, week1.count:week9.count)
 
 # 2020 count data, sex-and-age class (CSV) hardcoded.
-count20 <- read_csv("Counts_Legal_2020.csv") |> 
+count20 <- read_csv(here::here("Data/Count_Data/Counts_Legal_2020.csv")) |> 
   add_column( year = 2020) |> 
   mutate( trt = substr( LocationName, 1, 1),
           twn = substr( LocationName, 2, 2), 
@@ -91,7 +92,7 @@ count20 <- read_csv("Counts_Legal_2020.csv") |>
   dplyr::select( LocationName, year, siteID, trt, twn, week1.count:week9.count)
 
 # 2021 count data, sex-and-age class (CSV) hardcoded.
-count21 <- read_csv("Counts_Legal_2021.csv") |> 
+count21 <- read_csv(here::here("Data/Count_Data/Counts_Legal_2021.csv")) |> 
   add_column( year = 2021) |> 
   mutate( trt = substr( LocationName, 1, 1),
           twn = substr( LocationName, 2, 2), 
@@ -100,7 +101,7 @@ count21 <- read_csv("Counts_Legal_2021.csv") |>
   dplyr::select( LocationName, year, siteID, trt, twn, week1.count:week9.count)
 
 # 2022 count data, sex-and-age class (CSV) hardcoded.
-count22 <- read_csv("Counts_Legal_2022.csv") |> 
+count22 <- read_csv(here::here("Data/Count_Data/Counts_Legal_2022.csv")) |> 
   add_column( year = 2022) |> 
   mutate( trt = substr( LocationName, 1, 1),
           twn = substr( LocationName, 2, 2), 
