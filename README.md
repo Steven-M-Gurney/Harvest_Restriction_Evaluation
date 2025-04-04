@@ -20,7 +20,8 @@ Evaluating changes in population abundance is essential to assess the efficacy o
 *  [Data_Prep](./Code/Data_Prep) - Folder with code to prepare study data for use in the N-mixture model.
    * [Data_Processing.R](./Code/Data_Prep/Data_Processing.R) - Code to process wrangled data.
    * [Data_Wrangling.R](./Code/Data_Prep/Data_Wrangling.R) - Code to wrangle study data.
-*  [N_Mixture_Model.R](./Code/N_Mixture_Model.R) - Code to run the study model.
+* [N_Mixture_Model_Supplement.R](./Code/N_Mixture_Model_Supplement.R) - Code to fit alternative model with year as a factor rather than linear effect
+* [N_Mixture_Model.R](./Code/N_Mixture_Model.R) - Code to fit N-mixture models (main text)
 
 ### [Data](./Data): Contains data for study.
 *  [Count_Data](./Data/Count_Data) - Folder with verified count data by sex-and-age class and year (2019 - 2022; CSV files). These detection histories include a column for LocationName (unique name of sampling site, synonymous with SiteID) and columns associated with 9 seperate weekly counts.
@@ -56,6 +57,7 @@ Evaluating changes in population abundance is essential to assess the efficacy o
    * [Figure_02.R](./Figures/Code_For_Figures/Figure_02.R) - Create Figure 2 (marginal effects).
    * [Figure_03.R](./Figures/Code_For_Figures/Figure_03.R) - Create Figure 3 (differences in abundance).
    * [Figure_04.R](./Figures/Code_For_Figures/Figure_04.R) - Create Figure 4 (harvest estimates).
+   * [Figure_Supplement.R](./Figures/Code_For_Figures/Figure_Supplement.R) - Create supplemental figures visualizing results for model with year as a factor
 *  [Figure_01.tiff](./Figures/Figure_01.tiff) - Figure 1. Study area (created in ArcGIS Pro).
 *  [Figure_02.pptx](./Figures/Figure_02.pptx) - Figure 2. Marginal effects of year by harvest treatment (PPTX file for annotation).
 *  [Figure_02.tiff](./Figures/Figure_02.tiff) - Figure 2. Marginal effects of year by harvest treatment.
