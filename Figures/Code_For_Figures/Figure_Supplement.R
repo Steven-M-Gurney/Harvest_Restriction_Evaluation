@@ -1,7 +1,7 @@
 library(here)
 library(tidyverse)
 
-setwd(here::here("Results"))
+setwd(here::here("Results/Supplemental_Model_Results"))
 load("fawns_year_factor_no_itx.RData")
 fawn <- posterior
 load("females_year_factor_no_itx.RData")
