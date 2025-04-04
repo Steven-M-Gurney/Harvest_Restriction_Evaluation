@@ -111,26 +111,26 @@ Evaluating changes in population abundance is essential to assess the efficacy o
    * **out**. A list of the MCMC chains with the posterior samples for model parameters.
    * **code**. Code for the Nimble model.
 *  [Supplemental_Model_Results](./Results/Supplemental_Model_Results) - Folder with results from supplemental models with year as a factor
-  * [fawns_year_factor_no_itx.RData](./Results/Supplemental_Model_Results/fawns_year_factor_no_itx.RData) Fawn results. RData with the following objects:
-    * **out** A list of the MCMC chains with the posterior samples for model parameters
-    * **posterior** A table with parameter posterior and calculation of marginal effects
-      | Variable | Meaning |
-      |----------|---------|
-      | iter | Model iteration |
-      | trt | Treatment: 1 = Non-APR, 2 = APR |
-      | year | Year (1:4) |
-      | beta2 | Posterior samples for beta2 parameter |
-      | beta3 | Posterior samples for beta3 parameter |
-      | beta5 | Posterior samples for beta5 parameter |
-      | beta6 | Posterior samples for beta6 parameter |
-      | year.lab | Year label |
-      | trt.lab | Treatment label |
-      | ag | % Agriculture (mean value used to calculate marginal effects |
-      | lambda | Expected abundance - marginal effect for each year/treatment combination at average level of ag |
-      | class | Which sex-age class |
-  * [females_year_factor_no_itx.RData](./Results/Supplemental_Model_Results/females_year_factor_no_itx.RData) Female results. Same contents as above.
-  * [legal_year_factor_no_itx.RData](./Results/Supplemental_Model_Results/legal_year_factor_no_itx.RData) Legal antlered results. Same contents as above.
-  * [sublegal_year_factor_no_itx.RData](./Results/Supplemental_Model_Results/sublegal_year_factor_no_itx.RData) Sublegal antlered results. Same contents as above.
+    * [fawns_year_factor_no_itx.RData](./Results/Supplemental_Model_Results/fawns_year_factor_no_itx.RData) Fawn results. RData with the following objects:
+        * **out** A list of the MCMC chains with the posterior samples for model parameters
+        * **posterior** A table with parameter posterior and calculation of marginal effects
+        | Variable | Meaning |
+        |----------|---------|
+        | iter | Model iteration |
+        | trt | Treatment: 1 = Non-APR, 2 = APR |
+        | year | Year (1:4) |
+        | beta2 | Posterior samples for beta2 parameter |
+        | beta3 | Posterior samples for beta3 parameter |
+        | beta5 | Posterior samples for beta5 parameter |
+        | beta6 | Posterior samples for beta6 parameter |
+        | year.lab | Year label |
+        | trt.lab | Treatment label |
+        | ag | % Agriculture (mean value used to calculate marginal effects |
+        | lambda | Expected abundance - marginal effect for each year/treatment combination at average level of ag |
+        | class | Which sex-age class |
+   * [females_year_factor_no_itx.RData](./Results/Supplemental_Model_Results/females_year_factor_no_itx.RData) Female results. Same contents as above.
+   * [legal_year_factor_no_itx.RData](./Results/Supplemental_Model_Results/legal_year_factor_no_itx.RData) Legal antlered results. Same contents as above.
+   * [sublegal_year_factor_no_itx.RData](./Results/Supplemental_Model_Results/sublegal_year_factor_no_itx.RData) Sublegal antlered results. Same contents as above.
 *  [MDNR_Harvest_Estimates.csv](./Results/MDNR_Harvest_Estimates.csv) - MDNR annual harvest estimates by study area (i.e., Zone). This table contains the following columns:
     | Variable name | Meaning |
     |---------------|---------|
