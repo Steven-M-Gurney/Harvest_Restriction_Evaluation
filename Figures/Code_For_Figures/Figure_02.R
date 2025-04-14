@@ -16,7 +16,7 @@ legal <- read.csv("Results_ME_Legal.csv") %>%
 sublegal <- read.csv("Results_ME_Sublegal.csv") %>%
   mutate(class = "Sublegal antlered")
 
-female <- read.csv("Results_ME_Female.csv") %>%
+female <- read.csv("Results_ME_Females.csv") %>%
   mutate(class = "Females")
 
 fawns <- read.csv("Results_ME_Fawns.csv") %>%
