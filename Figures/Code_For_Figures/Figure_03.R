@@ -14,13 +14,13 @@ fawn <- read.csv("Results_Diff_Fawns.csv") %>%
   mutate(class = "Fawns")
 
 sub <- read.csv("Results_Diff_Sublegal.csv") %>%
-  mutate(class = "Sublegal antlered")
+  mutate(class = "Sublegal-antlered")
 
 female <- read.csv("Results_Diff_Females.csv") %>%
   mutate(class = "Females")
 
 legal <- read.csv("Results_Diff_Legal.csv") %>%
-  mutate(class = "Legal antlered")
+  mutate(class = "Legal-antlered")
 
 # Combine data for all sex-and-age classes.
 deer <- rbind(fawn, sub, female, legal)
@@ -30,7 +30,7 @@ deer <- deer %>%
   mutate(trt_name = recode(trt_name, "APR" = "Antler point restriction", "Non-APR" = "No antler point restriction"))
 
 # Plot 2022 - 2019 difference data for all sex-and-age classes in a single figure, stacked, and with a reference line at zero.
-deer.diff <- ggplot(data = deer, aes(x = factor(class, level = c('Fawns', 'Females', 'Sublegal antlered', 'Legal antlered')), # Hack (order things backwards before the axis flip).
+deer.diff <- ggplot(data = deer, aes(x = factor(class, level = c('Fawns', 'Females', 'Sublegal-antlered', 'Legal-antlered')), # Hack (order things backwards before the axis flip).
                                      y = mean, color = factor(trt_name, levels = c("No antler point restriction", "Antler point restriction")))) + # Hack (order things backwards before the axis flip).
   geom_hline(yintercept = 0, linetype = "dashed", size = 0.5, color = "black") + # Vertical reference line at zero.
   geom_errorbar(data = deer, size = 5, width = 0, alpha = 0.5, position = position_dodge(width = 0.5), mapping = aes(ymin = l95, ymax = u95)) +
