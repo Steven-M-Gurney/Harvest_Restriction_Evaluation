@@ -11,10 +11,10 @@ library(scales)
 
 # Load marginal-effects data by sex-and-age class and add class identifier.
 legal <- read.csv("Results_ME_Legal.csv") %>%
-  mutate(class = "Legal antlered")
+  mutate(class = "Legal-antlered")
 
 sublegal <- read.csv("Results_ME_Sublegal.csv") %>%
-  mutate(class = "Sublegal antlered")
+  mutate(class = "Sublegal-antlered")
 
 female <- read.csv("Results_ME_Females.csv") %>%
   mutate(class = "Females")
@@ -33,7 +33,7 @@ deer <- deer %>%
 deer.me <- ggplot(data = deer, aes(x = as.factor(year), y = mean, color = trt_name, group = trt_name)) +
   geom_ribbon(aes( ymin = l95, ymax = u95, fill = trt_name), alpha = 0.33, size = 0, position = position_dodge(width = 0), color = NA) +
   geom_line(size = 1.15, linetype = "solid", position = position_dodge(width = 0)) + # Add error and lines first so the points land on top.
-  facet_wrap(~factor(class, levels = c('Legal antlered', 'Sublegal antlered', 'Females', 'Fawns'))) # Reorder the panels for consistency.
+  facet_wrap(~factor(class, levels = c('Legal-antlered', 'Sublegal-antlered', 'Females', 'Fawns'))) # Reorder the panels for consistency.
 
 # Make the plot prettier.
 deer.me <- deer.me + labs(x= "Year", y= "Site-level deer abundance") + 
