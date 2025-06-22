@@ -1,5 +1,3 @@
-**###   THIS PAGE IS STILL UNDER CONSTRUCTION   ###**
-
 # Harvest restrictions fail to influence population abundance
 
 ### [Steven M. Gurney](https://linktr.ee/gurneyst), [Sonja A. Christensen](http://www.christensen-lab.org/), [Melissa J. Nichols](), [Chad M. Stewart](), [David M. Williams](), [Sarah L. Mayhew](), [Neil A. Gilbert](https://gilbertecology.com), [Dwayne R. Etter]()
