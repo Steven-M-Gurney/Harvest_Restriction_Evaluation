@@ -4,7 +4,7 @@
 
 ### [Steven M. Gurney](https://linktr.ee/gurneyst), [Sonja A. Christensen](http://www.christensen-lab.org/), [Melissa J. Nichols](), [Chad M. Stewart](), [David M. Williams](), [Sarah L. Mayhew](), [Neil A. Gilbert](https://gilbertecology.com), [Dwayne R. Etter]()
 
-### Data/code DOI: [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.14194669.svg)](https://doi.org/10.5281/zenodo.14194669)
+### Data/code DOI: [![DOI](https://zenodo.org/badge/678437269.svg)](https://doi.org/10.5281/zenodo.15715122)
 
 #### Please contact the first author for questions about the code or data: Steven M. Gurney (steven.m.gurney@gmail.com)
 __________________________________________________________________________________________________________________________________________
