@@ -64,8 +64,8 @@ Evaluating changes in population abundance is essential to assess the efficacy o
 *  [Silhouette_Sublegal.png](./Figures/Silhouette_Sublegal.png) - Sublegal antlered silhouette for figure annotations.
 *  [Silhouette_Female.png](./Figures/Silhouette_Female.png) - Female deer silhouette for figure annotations.
 *  [Silhouette_Legal.png](./Figures/Silhouette_Legal.png) - Legal antlered silhouette for figure annotations.
-*  [Appendix_S2_Figure_S1.tif](./Figures/Appendix_S2_Figure_S1.tif) - Appendix S2: Figure S1. Marginal effects of year by harvest treatment (for supplemental model with year as a factor).
-*  [Appendix_S2_Figure_S2.tif](./Figures/Appendix_S2_Figure_S2) - Appendix S2: Figure S2. Differences in abundance between 2022 and 2019 (for supplemental model with year as a factor).
+*  [Appendix_S2_Figure_S1.png](./Figures/Appendix_S2_Figure_S1.png) - Appendix S2: Figure S1. Marginal effects of year by harvest treatment (for supplemental model with year as a factor).
+*  [Appendix_S2_Figure_S2.png](./Figures/Appendix_S2_Figure_S2.png) - Appendix S2: Figure S2. Differences in abundance between 2022 and 2019 (for supplemental model with year as a factor).
 
 ### [Results](./Results): Contains results files.
 *  [Differences](./Results/Differences) - Folder with results from the interpretation model for difference in abundances (2022 - 2019; by sex-and-age class). These tables contain the following columns:
