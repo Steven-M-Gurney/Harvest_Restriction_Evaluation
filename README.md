@@ -55,7 +55,7 @@ Evaluating changes in population abundance is essential to assess the efficacy o
    * [Figure_02.R](./Figures/Code_For_Figures/Figure_02.R) - Create Figure 2 (marginal effects).
    * [Figure_03.R](./Figures/Code_For_Figures/Figure_03.R) - Create Figure 3 (differences in abundance).
    * [Figure_04.R](./Figures/Code_For_Figures/Figure_04.R) - Create Figure 4 (harvest estimates).
-   * [Figure_Supplement.R](./Figures/Code_For_Figures/Figure_Supplement.R) - Create supplemental figures visualizing results for model with year as a factor
+   * [Figure_Supplement.R](./Figures/Code_For_Figures/Figure_Supplement.R) - Create supplemental figures visualizing results for model with year as a factor.
 *  [Figure_01.tif](./Figures/Figure_01.tif) - Figure 1. Study area (created in ArcGIS Pro).
 *  [Figure_02.tif](./Figures/Figure_02.tif) - Figure 2. Marginal effects of year by harvest treatment.
 *  [Figure_03.tif](./Figures/Figure_03.tif) - Figure 3. Differences in abundance between 2022 and 2019.
